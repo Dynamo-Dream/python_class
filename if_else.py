@@ -5,7 +5,7 @@
 
 a = 6
 if a>5:
-  print(a)
+    print(a)
 #indentation spaces
 else:
     print("Whatever")

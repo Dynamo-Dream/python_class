@@ -5,8 +5,14 @@ from datetime import datetime
 import pandas as pd
 mixer.init()
 
+# returns current date and time
+now = datetime.now() #geeks of geeks
+
+
 def format_date():
-    return datetime().now().strftime("%Y-%m-%d")
+    now = datetime.now()
+    now = now.strftime("%Y-%m-%d")
+    return now
 
 def play_alarm(work_time):
     while work_time>0:
